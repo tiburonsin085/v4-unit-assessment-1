@@ -1,0 +1,28 @@
+header{
+    
+    background-color: pink;
+    border: 3px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+.top{
+    display: inline-block;
+    margin: 10px;
+}
+.box1{
+    border: 5px dotted black;
+    padding: 20px;
+    margin: 20px;
+}
+.box1Inside{
+    display: inline;
+
+}
+img{
+    height: 200px;
+  
+    float: left;
+}
+.css{
+    float: right;
+}
