@@ -134,20 +134,41 @@ var me = {
 // CODE HERE
 function bigOrSmall(arr){
   var answers =[]
-  // for (i = 0 ; i <= arr.length ; i++){
-  //   if (arr[i] >100){
-  //     return answers.push('big')
-  //   }
+  for (i = 0 ; i < arr.length ; i++){
+    if (arr[i] >100){
+      answers.push('big')
+    }
+    else {
+       answers.push('small')
+    }
 
-  // }
-  // return answers.push('small')
-  if (arr.length > 100){
-    return answers.push('big')
   }
-  else{
-    return answers.push('small')
-  }
+  return answers
 }
+// function bigOrSmall(arr){
+//   let answers =[]
+//   for (i = 0 ; i <= arr.length ; i++){
+//     if (arr[i] >100){
+//       answers.push('big')
+//     }
+//     else {
+//       answers.push('small')
+//     }
+
+//   }
+//   return answers
+// }
+
+
+
+
+  // if (arr.length > 100){
+  //   return answers.push('big')
+  // }
+  // else{
+  //   return answers.push('small')
+  // }
+
 //////////////////PROBLEM 13////////////////////
 /* 
   Create a function called 'arrayReverser' that takes in one parameter, 'arr'. 
